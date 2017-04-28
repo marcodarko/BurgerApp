@@ -3,10 +3,11 @@ var mysql = require("mysql");
 
 var connection = mysql.createConnection({
   port: 3306,
-  host: "sql3.freesqldatabase.com",
-  user: "sql3171566",
-  password: "Pzl8VLrc3w",
-  database: "sql3171566"
+  host: "us-cdbr-iron-east-03.cleardb.net",
+  user: "b204e93cac7161",
+  password: "cad08e55",
+  database: "heroku_fcbb3d9e4d63f93",
+  connectionLimit: 5
 });
 
 // Make connection.
@@ -20,3 +21,4 @@ connection.connect(function(err) {
 
 // Export connection for our ORM to use.
 module.exports = connection;
+
