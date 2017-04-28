@@ -62,6 +62,11 @@ h1{
 
 }
 
+#burgerBox{
+	color: black;
+}
+
+
 
 #addBox{
 	background-image: url('../images/cheese.png');
